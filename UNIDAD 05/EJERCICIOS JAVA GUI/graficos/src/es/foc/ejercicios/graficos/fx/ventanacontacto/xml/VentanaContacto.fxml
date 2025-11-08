@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="5" style="-fx-padding: 10; -fx-border-style: solid inside; -fx-border-width: 2; -fx-border-insets: 5; -fx-border-radius: 5; -fx-border-color: green;" vgap="5" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.foc.ejercicios.graficos.fx.ventanacontacto.xml.ControladorVentanaContacto">
+   <children>
+   
+       <Label text="Nombres:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+       <Label text="Apellidos:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+       <Label text="Fecha nacimiento:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+       <Label text="Dirección:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+       <Label text="Teléfono:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+       <Label text="Correo:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+   
+       <TextField fx:id="campoNombres" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+       <TextField fx:id="campoApellidos" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+       <DatePicker fx:id="campoFechaNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+       <TextField fx:id="campoDireccion" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+       <TextField fx:id="campoTelefono" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+       <TextField fx:id="campoCorreo" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+   
+       <ListView fx:id="lista" GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.rowSpan="6" />
+       <Button fx:id="agregar" onAction="#agregarContacto" text="Agregar" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+       <Button fx:id="limpiar" onAction="#limpiarCampos" text="Limpiar campos" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="6" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>
