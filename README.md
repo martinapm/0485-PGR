@@ -85,26 +85,25 @@ Este repositorio abarca las siguientes unidades y temáticas:
 
 ## 📂 Estructura del Proyecto
 
+```plaintext
+
 ├── Unidad_00/
-│ └── Ejercicios_PSeInt/
-│
+│   └── Ejercicios_PSeInt/
 ├── Unidad_03/
-│ └── Ejercicios_Java/
-│
+│   └── Ejercicios_Java/
 ├── Unidad_05/
-│ ├── Ejercicios_GUI/
-│ ├── Ejercicios_Swing/
-│ └── Ejercicios_JavaFX/
-│
+│   ├── Ejercicios_GUI/
+│   ├── Ejercicios_Swing/
+│   └── Ejercicios_JavaFX/
 ├── Unidad_06/
-│ └── Ejercicios_Java/
-│
+│   └── Ejercicios_Java/
 ├── Unidad_08/
-│ ├── Ejercicios_MariaDB/
-│ └── Ejercicios_ObjectDB/
-│
+│   ├── Ejercicios_MariaDB/
+│   └── Ejercicios_ObjectDB/
 └── Unidad_09/
-└── Ejercicios_JDBC/
+    └── Ejercicios_JDBC/
+
+```
 
 ---
 
