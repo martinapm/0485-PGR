@@ -1,0 +1,6 @@
+1,Tornillo,700,12.25,Tornillo peque?o
+2,Tuerca,69,25,14,Tuerca para tornillo peque?o
+3,Clavo,100,14,00,Clavo de cabeza plana
+4,Alambre,300,788,12,Rollo de alambre
+7,7,7,7,00,7
+78,78,78,9,00,7
