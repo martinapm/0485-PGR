@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="es.foc.ejercicios.graficos.javafx.ventanacontacto.fxml.ControladorVentanaContacto"
+          hgap="5" vgap="5" style="-fx-padding: 10; -fx-border-style: solid inside; -fx-border-width: 2; -fx-border-insets: 5; -fx-border-radius: 5; -fx-border-color: green;">
+
+    <Label text="Nombres:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Label text="Apellidos:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Label text="Fecha nacimiento:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label text="Dirección:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Label text="Teléfono:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Label text="Correo:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+
+    <TextField fx:id="campoNombres" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="campoApellidos" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <DatePicker fx:id="campoFechaNacimiento" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <TextField fx:id="campoDireccion" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <TextField fx:id="campoTelefono" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <TextField fx:id="campoCorreo" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <ListView fx:id="lista" GridPane.rowIndex="0" GridPane.columnIndex="2" GridPane.rowSpan="6"/>
+    <Button fx:id="agregar" text="Agregar" onAction="#agregarContacto" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+    <Button fx:id="limpiar" text="Limpiar campos" onAction="#limpiarCampos" GridPane.rowIndex="6" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+</GridPane>
