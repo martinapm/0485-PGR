@@ -46,7 +46,6 @@ Este repositorio abarca las siguientes unidades y temáticas:
 ### ⚙️ Unidad 06 – Java  
 - Ampliación de conceptos de programación en **Java**.  
 - Prácticas de control de flujo, excepciones y estructuras avanzadas.  
-- (*Nota: consultar el tema 07 para incluir ejercicio adicional.*)
 
 ### 🗄️ Unidad 08 – Java con MariaDB y ObjectDB  
 - Conexión de aplicaciones Java con **bases de datos relacionales** y **orientadas a objetos**.  
